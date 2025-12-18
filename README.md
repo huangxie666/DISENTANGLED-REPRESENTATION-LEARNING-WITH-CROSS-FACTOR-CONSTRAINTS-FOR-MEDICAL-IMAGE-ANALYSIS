@@ -92,8 +92,7 @@ python main.py \ --learning_rate 5e-4 \ --batch_size 32 \ --num_epochs 300 \ --l
 
 ## Visualization
 
-We provide several visualization utilities to inspect the training process
-and the behavior of the model on the BUSI dataset.
+We visualize the training process using loss and accuracy curves, evaluate classification performance with confusion matrices, and provide qualitative examples showing model predictions together with reconstructed images to illustrate the behavior of the multi-task and representation learning framework.
 
 ### Training Curves
 
